@@ -830,7 +830,7 @@ if (typeof value === 'number') {
         try {
           const viewer = new Autodesk.Viewing.GuiViewer3D(document.getElementById('viewer'));
           viewer.start();
-		  const documentId = 'urn:dXJuOmFkc2sub2JqZWN0czpvcy5vYmplY3Q6ZHcwZ2V5N21ucmQ4bGxydHN3ZjZyMWZqc3lnd2J5dnN5cmZlYWNsYTBteWs3Z2VoLWJhc2ljLWFwcC9FaW5mYW1pbGllbmhhdXNfdjYucnZ0';
+		  const documentId = 'dXJuOmFkc2sub2JqZWN0czpvcy5vYmplY3Q6ZGJxbTdpdGhnZmZ3bGlqYWZieGFhd3FxcjVqdWl5Zm1hb3lkN2NycWFhYTVmdWZ3LWJhc2ljLWFwcC9NZWhyZmFtaWxpZW5oYXVzXzEwV0VfdjEucnZ0';
           Autodesk.Viewing.Document.load(documentId, async (doc) => {
             try {
               const viewables = doc.getRoot().search({ type: 'geometry' });
